@@ -1,3 +1,6 @@
 .form-main-page {
     border: black solid 2px;
 }
+.table-with-color {
+    background-color: azure;
+}
