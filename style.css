@@ -54,10 +54,12 @@ body {background: dimgray url(images/18.png) repeat top left;}
  #page
  { width: 1200px;
   margin: 0 auto;
+  background: #6d8b85;
  }
  #navigation{
-  background: brown;
+  background: #7ca545;
   height: 50px;
+  position: relative;
 
  }
  #navigation ul li {
@@ -72,7 +74,7 @@ body {background: dimgray url(images/18.png) repeat top left;}
   line-height: 50px;
   display: block;
   height: 50px;
-  background: brown;
+  background: #7ca545;
  }
 #navigation ul li a:hover{
  background: darkblue;
@@ -81,7 +83,7 @@ body {background: dimgray url(images/18.png) repeat top left;}
 #navigation .dropdown{
  position: absolute;
  top: 100%;
- background:brown;
+ background:#7ca545;
  display:none;
 }
 #navigation .dropdown li{
@@ -95,7 +97,21 @@ body {background: dimgray url(images/18.png) repeat top left;}
 #navigation li:hover .dropdown{
  display: block;
 }
-
+#header {
+ height: 110px;
+ position: relative;
+ background: #a57a91;
+}
+.logo {
+ display: block;
+ position: absolute;
+ top: 5px;
+ left: 10px;
+}
+.image1{
+ width: 100px;
+ height: 100px;
+}
 #Kontent{width: 800px;
   float: left;
 
