@@ -1,0 +1,12 @@
+.needs-validation {
+margin: 200px 0px 0px 0px;
+}
+.form-row{
+ display: flex;
+ flex-direction: column;
+ margin: 0px 0px 0px 200px;
+}
+.btn-primary{
+ margin: 0px 0px 0px 200px;
+}
+
