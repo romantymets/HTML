@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid green;
+    border-radius: 5px;
+    max-width: 450px;
+    margin: 1px;
+}
+.image {
+    height: 300px;
+    width: 100%;
+    background-color: #6d8b85;
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 10px 20px;
+}
+.title {
+
+}
+.text {
+
+}
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.btn {
+    height: 46px;
+    padding: 10px;
+    background-color: #007bff;
+    border-radius: 5px;
+    color: white;
+}
+
+.test-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    border: 1px solid blue;
+    padding: 2px;
+    height: 200px;
+}
+.test-sub-container {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background: #a50a09;
+    margin: 1px;
+}
+.first {
+    flex-shrink: 1;
+
+}
+.second {
+ align-self: flex-end;
+}

@@ -1,3 +1,139 @@
-.form-main-page {
-    border: black solid 2px;
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+ display: block;
+}
+body {
+ line-height: 1;
+}
+ol, ul {
+ list-style: none;
+}
+blockquote, q {
+ quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content: '';
+ content: none;
+}
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+
+body {background: dimgray url(images/18.png) repeat top left;}
+
+
+
+ #page
+ { width: 1200px;
+  margin: 0 auto;
+  background: #6d8b85;
+ }
+ #navigation{
+  background: #7ca545;
+  height: 50px;
+  position: relative;
+
+ }
+ #navigation ul li {
+  float: left;
+  position: relative;
+  width: 150px;
+ }
+ #navigation ul li a {
+  color: black;
+ padding: 0 10px;
+  text-decoration: none;
+  line-height: 50px;
+  display: block;
+  height: 50px;
+  background: #7ca545;
+ }
+#navigation ul li a:hover{
+ background: darkblue;
+ text-decoration: underline;
+}
+#navigation .dropdown{
+ position: absolute;
+ top: 100%;
+ background:#7ca545;
+ display:none;
+}
+#navigation .dropdown li{
+ width: 100%;
+ height: 35px;
+}
+#navigation .dropdown li a{
+ line-height: 35px;
+ height: 35px;
+}
+#navigation li:hover .dropdown{
+ display: block;
+}
+#header {
+ height: 110px;
+ position: relative;
+ background: #a57a91;
+}
+.logo {
+ display: block;
+ position: absolute;
+ top: 5px;
+ left: 10px;
+}
+.image1{
+ width: 100px;
+ height: 100px;
+}
+#Kontent{width: 800px;
+  float: left;
+
+ }
+ #LEFT{width: 400px;
+  float: right;
+;
+  height: 400px
+ }
+ #Down{clear: both;
+  height: 200px;
+  background-color: rebeccapurple
+ }
+ .textone{width: 700px;
+  text-align: justify;
+  color: darkblue;
+  font-weight: bold;
+  text-indent: 30px;
+  line-height: 30px;
+  font-family: 'Roboto', sans-serif;
+ }
+ .list{
+  color: black;
+  font-family: 'Roboto', sans-serif;
+ }
